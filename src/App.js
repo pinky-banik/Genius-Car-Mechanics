@@ -7,6 +7,7 @@ import Header from './Components/Shared/Header';
 import Booking from './Components/Booking/Booking';
 import Login from './Components/Login/Login/Login';
 import AuthProvider from './Contexts/AuthProvider';
+import PrivateRoute from './Components/Login/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -21,9 +22,9 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/booking/:serviceId">
+            <PrivateRoute path="/booking/:serviceId">
               <Booking></Booking>
-            </Route>
+            </PrivateRoute>
             <Route to="/login"><Login>
               </Login>
               </Route>

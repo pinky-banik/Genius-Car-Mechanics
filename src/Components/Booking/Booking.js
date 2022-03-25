@@ -5,6 +5,13 @@ const Booking = () => {
     const { serviceId } = useParams();
     return (
         <div>
+            <br />
+            <h2>this is booking: {serviceId}</h2>
+            <h2>this is booking: {serviceId}</h2>
+            <h2>this is booking: {serviceId}</h2>
+            <h2>this is booking: {serviceId}</h2>
+            <h2>this is booking: {serviceId}</h2>
+            <h2>this is booking: {serviceId}</h2>
             <h2>this is booking: {serviceId}</h2>
         </div>
     );
