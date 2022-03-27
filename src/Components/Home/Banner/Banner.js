@@ -1,4 +1,3 @@
-import { Carousel } from 'bootstrap';
 import React from 'react';
 import banner1 from '../../../images/banner/banner1.jpg';
 import banner2 from '../../../images/banner/banner2.jpg';
