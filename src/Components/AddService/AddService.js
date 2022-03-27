@@ -21,7 +21,7 @@ const AddService = () => {
             <div className='my-5 mx-3 add-service'>
             <h1>Add a service</h1>
             <form  onSubmit={handleSubmit(onSubmit)}>
-            <input  {...register("Name", { required: true, maxLength: 20 })} placeholder="Name" />
+            <input  {...register("name", { required: true, maxLength: 20 })} placeholder="Name" />
             <textarea {...register("description",{required:true})} placeholder="Description" />
             <input type="number"  {...register("price")} placeholder="Price" />
             <input   {...register("img")} placeholder="Image Url" />
