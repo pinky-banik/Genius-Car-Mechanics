@@ -8,6 +8,7 @@ import Booking from './Components/Booking/Booking';
 import Login from './Components/Login/Login/Login';
 import AuthProvider from './Contexts/AuthProvider';
 import PrivateRoute from './Components/Login/PrivateRoute/PrivateRoute';
+import AddService from './Components/AddService/AddService';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
             <PrivateRoute path="/booking/:serviceId">
               <Booking></Booking>
             </PrivateRoute>
+            <Route to="/addService">
+                <AddService></AddService>
+              </Route>
             <Route to="/login"><Login>
               </Login>
               </Route>
