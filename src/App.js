@@ -24,10 +24,10 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route to="/manageService">
+            <Route path="/manageService">
                 <ManageService></ManageService>
               </Route>
-              <Route to="/addService">
+              <Route path="/addService">
                 <AddService></AddService>
               </Route>
               
@@ -35,7 +35,7 @@ function App() {
               <Booking></Booking>
             </PrivateRoute>
             
-            <Route to="/login"><Login>
+            <Route path="/login"><Login>
               </Login>
               </Route>
 
